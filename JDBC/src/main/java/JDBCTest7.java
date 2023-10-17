@@ -20,7 +20,7 @@ public class JDBCTest7 {
 			e.printStackTrace();
 			System.out.println("load Fail!");
 		}
-		
+		//2023-10-18
 		try(
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/project?serviceTimezone=UTC","root","1234");
 			Statement stmt = conn.createStatement();			
